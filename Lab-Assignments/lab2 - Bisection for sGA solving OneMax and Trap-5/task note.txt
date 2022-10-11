@@ -1,0 +1,16 @@
+Task: Minimally required population size (MRPS)
+
+
+Code: 
+- sGA + POPOP (tournament_size = 4, pc = 100%, pm = 0%)
+	+ onemax
+	+ trap-5
+
+- How to find MRPS with bisection:
+	+ process 1: Find upper bound
+	+ process 2: Find MRPS
+
+	* success: pass 10 test (with different Random Seed)
+	* same 10 random seed for two process
+
+- Run 10 times bisection (mssv+0/10/...90) to get statistical data
